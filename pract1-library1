@@ -1,0 +1,46 @@
+// Online C++ compiler to run C++ program online
+#include<iostream>
+#include<string>
+
+using namespace std;
+int main()
+{
+    int id1,id2,id3;
+    string title1,title2,title3;
+
+    //Book 1
+    cout<<"Enter Book 1 id1:";
+    cin>>id1;
+
+    cin.ignore();
+    cout<<"Enter Book 1 title id1:";
+    getline(cin,title1);
+    //Book 2
+    cout<<"Enter Book 2 id2:";
+    cin>>id2;
+
+    cin.ignore();
+    cout<<"Enter Book 2 title id2:";
+    getline(cin,title2);
+    //Book 3
+    cout<<"Enter Book 3 id3:";
+    cin>>id3;
+
+    cin.ignore();
+    cout<<"Enter Book 3 title id3:";
+    getline(cin,title3);
+
+
+    //Display Books
+    cout<<"\n==== LIBRARY BOOKS ====";
+    
+    cout<<"\nbook id: " <<id1;
+    cout<<"\nbook title:"<<title1;
+
+    cout<<"\nbook id: " <<id2;
+    cout<<"\nbook title:"<<title2;
+
+    cout<<"\nbook id: " <<id3;
+    cout<<"\nbook title:"<<title3;
+   return 0;
+}
